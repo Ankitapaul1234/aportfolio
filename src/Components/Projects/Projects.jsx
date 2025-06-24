@@ -97,7 +97,7 @@ const Projects = () => {
           title="Predica: Breast Cancer Prediction"
           main="Features: Accurate diagnosis using AI, interactive chatbot, educational videos, and a hospital locator."
           image={predicaImg}
-          demoLink="https://predica.netlify.app/"
+          demoLink="https://predicanew.netlify.app/"
           sourceLink="https://github.com/Ankitapaul1234/predicato"
         />
         <ProjectCard
