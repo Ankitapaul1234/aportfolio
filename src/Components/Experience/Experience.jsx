@@ -446,7 +446,6 @@ const skills = [
   { icon: <FaJava color="#007396" size={50} />, name: "Java" },
   { icon: <FaPython color="#3776AB" size={50} />, name: "Python" },
   { icon: <FaDatabase color="#4479A1" size={50} />, name: "SQL" },
-  { icon: <SiMongodb color="#47A248" size={50} />, name: "MongoDB" },
   { icon: <SiNextdotjs color="white" size={50} />, name: "Next.js" },
   { icon: <FaReact color="#61DAFB" size={50} />, name: "React.js" },
   { icon: <SiTailwindcss color="#38B2AC" size={50} />, name: "Tailwind" },
