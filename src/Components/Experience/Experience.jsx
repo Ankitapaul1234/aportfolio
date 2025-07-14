@@ -434,6 +434,7 @@ import {
   SiNetlify,
   SiVercel,
   SiNumpy,
+  SiMysql,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -446,6 +447,7 @@ const skills = [
   { icon: <FaJava color="#007396" size={50} />, name: "Java" },
   { icon: <FaPython color="#3776AB" size={50} />, name: "Python" },
   { icon: <FaDatabase color="#4479A1" size={50} />, name: "SQL" },
+   { icon: <SiMysql color="#00758F" size={50} />, name: "MySQL" },
   { icon: <SiNextdotjs color="white" size={50} />, name: "Next.js" },
   { icon: <FaReact color="#61DAFB" size={50} />, name: "React.js" },
   { icon: <SiTailwindcss color="#38B2AC" size={50} />, name: "Tailwind" },
