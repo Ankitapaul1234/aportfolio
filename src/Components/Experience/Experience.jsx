@@ -436,6 +436,7 @@ import {
   SiNumpy,
   SiMysql,
 } from "react-icons/si";
+import { DiOracle } from "react-icons/di"; // PL/SQL via Oracle icon
 import { motion } from "framer-motion";
 
 const skills = [
@@ -448,6 +449,7 @@ const skills = [
   { icon: <FaPython color="#3776AB" size={50} />, name: "Python" },
   { icon: <FaDatabase color="#4479A1" size={50} />, name: "SQL" },
    { icon: <SiMysql color="#00758F" size={50} />, name: "MySQL" },
+ { icon: <DiOracle color="#F80000" size={50} />, name: "PL/SQL" },      // ✅ Added
   { icon: <SiNextdotjs color="white" size={50} />, name: "Next.js" },
   { icon: <FaReact color="#61DAFB" size={50} />, name: "React.js" },
   { icon: <SiTailwindcss color="#38B2AC" size={50} />, name: "Tailwind" },
@@ -455,7 +457,6 @@ const skills = [
   { icon: <SiPandas color="#150458" size={50} />, name: "Pandas" },
   { icon: <SiNumpy color="#013243" size={50} />, name: "NumPy" },
   { icon: <SiJupyter color="#F37626" size={50} />, name: "Jupyter Notebook" },
-  { icon: <SiGooglecolab color="#F9AB00" size={50} />, name: "Google Colab" },
   { icon: <SiNetlify color="#00C7B7" size={50} />, name: "Netlify" },
   { icon: <SiVercel color="white" size={50} />, name: "Vercel" },
   { icon: <FaGithub color="#FFFFFF" size={50} />, name: "GitHub" },
