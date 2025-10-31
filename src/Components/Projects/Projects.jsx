@@ -114,6 +114,27 @@ const Projects = () => {
           demoLink="https://acclivity89.vercel.app/"
           sourceLink="https://github.com/Ankitapaul1234/acclivity89"
         />
+        <ProjectCard
+          title="Trendsy: Clothing Brand Landing Page"
+          main="Features: Responsive UI, modern design, product highlights, and smooth scrolling for an engaging shopping experience."
+          image={trendsyImg}
+          demoLink="https://trendsy.netlify.app/"
+          sourceLink="https://github.com/Ankitapaul1234/trendsy"
+        />
+        <ProjectCard
+          title="Stopzy: Stopwatch Web App"
+          main="Features: Simple and sleek stopwatch with start, stop, and reset functions for accurate time tracking."
+          image={stopzyImg}
+          demoLink="https://stopzy.netlify.app/"
+          sourceLink="https://github.com/Ankitapaul1234/stopzy"
+        />
+        <ProjectCard
+          title="Calcify: Calculator"
+          main="Features: Responsive and interactive calculator supporting basic arithmetic operations with clean UI."
+          image={calcifyImg}
+          demoLink="https://calcify.netlify.app/"
+          sourceLink="https://github.com/Ankitapaul1234/calcify"
+        />
       </div>
     </div>
   );
