@@ -89,7 +89,7 @@ import tufaiImg from "../../assets/tufai.png";
 import acclivityImg from "../../assets/bank.png";
 import trendsyImg from "../../assets/trendsy.png";
 import stopzyImg from "../../assets/stopzy.png";
-import calcifyImg from "../../assets/calcify.png";
+import calcifyImg from "../../assets/clacify.png";
 
 const Projects = () => {
   return (
