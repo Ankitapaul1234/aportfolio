@@ -122,21 +122,21 @@ const Projects = () => {
           main="Features: Responsive UI, modern design, product highlights, and smooth scrolling for an engaging shopping experience."
           image={trendsyImg}
           demoLink="https://trendsy.netlify.app/"
-          sourceLink="https://github.com/Ankitapaul1234/trendsy"
+          sourceLink="https://github.com/Ankitapaul1234/PRODIGY_WD_02.git"
         />
         <ProjectCard
           title="Stopzy: Stopwatch Web App"
           main="Features: Simple and sleek stopwatch with start, stop, and reset functions for accurate time tracking."
           image={stopzyImg}
           demoLink="https://stopzy.netlify.app/"
-          sourceLink="https://github.com/Ankitapaul1234/stopzy"
+          sourceLink="https://github.com/Ankitapaul1234/PRODIGY_WD_02.git"
         />
         <ProjectCard
           title="Calcify: Calculator"
           main="Features: Responsive and interactive calculator supporting basic arithmetic operations with clean UI."
           image={calcifyImg}
-          demoLink="https://calcify.netlify.app/"
-          sourceLink="https://github.com/Ankitapaul1234/calcify"
+          demoLink="https://clacify.netlify.app/"
+          sourceLink="https://github.com/Ankitapaul1234/clacify.git"
         />
       </div>
     </div>
