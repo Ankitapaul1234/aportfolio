@@ -87,6 +87,9 @@ import ProjectCard from "./ProjectCard";
 import predicaImg from "../../assets/predica.png";
 import tufaiImg from "../../assets/tufai.png";
 import acclivityImg from "../../assets/bank.png";
+import trendsyImg from "../../assets/trendsy.png";
+import stopzyImg from "../../assets/stopzy.png";
+import calcifyImg from "../../assets/calcify.png";
 
 const Projects = () => {
   return (
