@@ -289,7 +289,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 //import AboutImg from "../../assets/7358653-removebg-preview.png";
-import AboutImg from "../../assets/myphoto3.jpeg";
+import AboutImg from "../../assets/myphoto4.jpeg";
 
 const About = () => {
   const aboutItems = [
@@ -357,7 +357,7 @@ const About = () => {
 
           {/* LEFT IMAGE */}
           <div className="flex justify-center">
-            <img className="md:h-150 md:w-100" src={AboutImg} alt="About img" />
+            <img className="md:h-150 md:w-80" src={AboutImg} alt="About img" />
           </div>
 
           {/* RIGHT TEXT SECTION */}
