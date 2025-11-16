@@ -57,12 +57,14 @@ const Home = () => {
 
 
       {/* Left content */}
-     <p className="text-[#d4ac0d] font-light text-xl tracking-wide"
-   style={{ fontFamily: "Calibri, sans-serif" }}>
+   
+
+      <div className="md:w-2/4 md:pt-10">
+       <p className="text-[#d4ac0d] font-light text-xl tracking-wide"
+   style={{ fontFamily: "Inter, sans-serif" }}>
   -- Hello World
 </p>
 
-      <div className="md:w-2/4 md:pt-10">
         <h1 className="text-xl md:text-6xl font-bold leading-normal tracking-tighter mb-4">
           <TextChange />
         </h1>
