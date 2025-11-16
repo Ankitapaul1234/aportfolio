@@ -70,7 +70,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur bg-black/20 text-white px-6 md:px-20 py-4 flex items-center justify-between shadow-md">
       {/* Logo */}
        <a href="/">
-        <span className="text-2xl font-bold tracking-wide">APortfolio</span>
+        <span className="text-2xl font-bold tracking-wide hover:text-[#d4ac0d]">APortfolio</span>
         </a>
 
       {/* Nav Links */}
@@ -80,17 +80,17 @@ const Navbar = () => {
         } md:flex gap-6 text-center bg-black/60 md:bg-transparent md:static absolute top-full left-0 w-full md:w-auto rounded-b-xl px-6 py-4 md:p-0 font-semibold`}
       >
         <a href="#About">
-          <li className="py-2 md:py-0 hover:text-cyan-400 transition duration-300">About</li>
+          <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">About</li>
         </a>
         
         <a href="#Experience">
-          <li className="py-2 md:py-0 hover:text-cyan-400 transition duration-300">Skills</li>
+          <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">Skills</li>
         </a>
         <a href="#Projects">
-          <li className="py-2 md:py-0 hover:text-cyan-400 transition duration-300">Projects</li>
+          <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">Projects</li>
         </a>
         <a href="#contact">
-          <li className="py-2 md:py-0 hover:text-cyan-400 transition duration-300">Contact</li>
+          <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">Contact</li>
         </a>
        
       </ul>
