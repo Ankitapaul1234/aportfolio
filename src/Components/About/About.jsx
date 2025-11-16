@@ -236,10 +236,19 @@ const About = () => {
                 <li key={index} className="py-4 group">
 
                   {/* TITLE */}
-                  <h1 className="text-xl md:text-2xl font-medium text-[#f1c40f] 
+                  {/* <h1 className="text-xl md:text-2xl font-medium text-[#f1c40f] 
                                  transition-all duration-300 group-hover:text-[#f7d774] group-hover:tracking-wide">
                     {item.title}
-                  </h1>
+                  </h1> */}
+
+                        {/* TITLE */}
+<h1
+  className="text-xl md:text-2xl font-light tracking-wide text-[#f1c40f]
+             transition-all duration-300 group-hover:text-[#f7d774] group-hover:tracking-wider"
+>
+  {item.title}
+</h1>
+
 
                   {/* DESCRIPTION */}
                   <p className="text-sm md:text-[16px] text-gray-300 leading-tight font-light tracking-wide">
