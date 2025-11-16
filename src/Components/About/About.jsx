@@ -214,7 +214,7 @@ const About = () => {
         {/* MAIN TITLE */}
         <h2 className="text-2xl md:text-4xl font-bold text-[#f1c40f] 
                        transition-all duration-500 hover:text-[#f7d774] hover:tracking-wide">
-          About Me
+          ABOUT ME
         </h2>
 
         <div className="flex flex-col md:flex-row gap-10 mt-8 items-start">
