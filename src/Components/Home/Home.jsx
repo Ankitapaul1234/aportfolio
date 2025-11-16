@@ -61,9 +61,15 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold leading-normal tracking-tighter mb-4">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight mb-6">
+        {/* <p className="text-sm md:text-2xl tracking-tight mb-6">
           Welcome to my portfolio! Take a look at my work — let's build something awesome together.
-        </p>
+        </p> */}
+
+       <p className="text-sm md:text-2xl tracking-tight mb-6 
+               text-gray-300 font-light leading-relaxed">
+  Welcome to my portfolio! Take a look at my work — let's build something awesome together.
+</p>
+
         {/* <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-6 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#2a79e6]">
           Contact Me
         </button> */}
