@@ -106,7 +106,7 @@ const Home = () => {
   <img
     src={avatarImg}
     alt="Ankita Paul"
-    className="rounded-full object-cover w-40 h-40"
+    className="rounded-full object-cover w-50 h-50"
   />
 </div>
 
