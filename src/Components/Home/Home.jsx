@@ -94,13 +94,22 @@ const Home = () => {
 
     {/* </div>  */}
 
+     {/* <div className="md:w-2/4 flex justify-center md:justify-end mt-10 md:mt-0">
+  <img
+    src={avatarImg}
+    alt="Ankita Paul"
+    className="block mx-auto w-40 h-40 rounded-full object-cover animate-float"
+  />
+</div> */}
+
      <div className="md:w-2/4 flex justify-center md:justify-end mt-10 md:mt-0">
   <img
     src={avatarImg}
     alt="Ankita Paul"
-    className="block mx-auto w-50 h-50 rounded-full object-cover animate-float"
+    className="rounded-full object-cover w-40 h-40"
   />
 </div>
+
 
 
       
