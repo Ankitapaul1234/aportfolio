@@ -288,7 +288,8 @@
 
 
 import React, { useState, useRef, useEffect } from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+//import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/myphoto3.jpeg";
 
 const About = () => {
   const aboutItems = [
