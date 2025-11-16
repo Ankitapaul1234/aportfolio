@@ -357,7 +357,7 @@ const About = () => {
 
           {/* LEFT IMAGE */}
           <div className="flex justify-center">
-            <img className="md:h-200 md:w-200" src={AboutImg} alt="About img" />
+            <img className="md:h-150 md:w-150" src={AboutImg} alt="About img" />
           </div>
 
           {/* RIGHT TEXT SECTION */}
