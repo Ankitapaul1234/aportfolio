@@ -503,13 +503,14 @@ import { motion } from "framer-motion";
 const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
   return (
     <motion.div
-      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#2f3640] shadow-xl rounded-2xl cursor-pointer animate-glow"
+      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#1e232b] shadow-xl rounded-2xl cursor-pointer animate-glow"
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       whileInView={{ opacity: 1, scale: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
       whileHover={{ scale: 1.03 }}
       viewport={{ once: true }}
     >
+      {/* IMAGE */}
       <div className="overflow-hidden rounded-xl">
         <motion.img
           src={image}
@@ -520,16 +521,19 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
         />
       </div>
 
+      {/* TITLE */}
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal text-white mt-2">
         {title}
       </h3>
 
+      {/* DESCRIPTION */}
       <p className="px-4 text-sm md:text-md leading-tight py-2 text-gray-300">
         {main}
       </p>
 
+      {/* BUTTONS */}
       <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
-
+        
         {/* LIVE BUTTON */}
         <motion.a
           href={demoLink}
@@ -547,7 +551,7 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
           Live
         </motion.a>
 
-        {/* SOURCE BUTTON */}
+        {/* SOURCE CODE BUTTON */}
         <motion.a
           href={sourceLink}
           target="_blank"
@@ -570,4 +574,3 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
 };
 
 export default ProjectCard;
-
