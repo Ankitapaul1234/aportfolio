@@ -98,7 +98,7 @@ const Home = () => {
   <img
     src={avatarImg}
     alt="Ankita Paul"
-    className="block mx-auto w-200 h-200 rounded-full object-cover animate-float"
+    className="block mx-auto w-100 h-100 rounded-full object-cover animate-float"
   />
 </div>
 
