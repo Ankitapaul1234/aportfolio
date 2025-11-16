@@ -69,7 +69,7 @@ const Navbar = () => {
   return (
     // <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur bg-black/20 text-white px-6 md:px-20 py-4 flex items-center justify-between shadow-md">
       <nav className="fixed top-0 left-0 w-full z-50 
-                backdrop-blur bg-black/30 text-white 
+                backdrop-blur bg-black/10 text-white 
                 px-6 md:px-20 py-4 flex items-center justify-between 
                 shadow-md border-b border-gray-600">
 
