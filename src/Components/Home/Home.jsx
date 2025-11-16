@@ -82,15 +82,26 @@ const Home = () => {
       </div>
 
       {/* Right image */}
-      <div className="md:w-2/4 flex justify-center md:justify-end mt-10 md:mt-0">
+      {/* <div className="md:w-2/4 flex justify-center md:justify-end mt-10 md:mt-0">
         <img
           src={avatarImg}
           alt="Ankita Paul"
           className="block mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl animate-float"
-        />
+        /> */}
+
+     
   
 
-      </div>
+    {/* </div>  */}
+
+     <div className="md:w-2/4 flex justify-center md:justify-end mt-10 md:mt-0">
+  <img
+    src={avatarImg}
+    alt="Ankita Paul"
+    className="block mx-auto w-32 h-32 rounded-full object-cover animate-float"
+  />
+</div>
+
 
       
     </div>
