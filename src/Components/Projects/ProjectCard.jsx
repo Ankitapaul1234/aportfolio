@@ -412,13 +412,98 @@
 
 
 
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
+//   return (
+//     <motion.div
+//       className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#0c0e19] shadow-xl rounded-2xl cursor-pointer animate-glow"
+//       initial={{ opacity: 0, scale: 0.8, y: 50 }}
+//       whileInView={{ opacity: 1, scale: 1, y: 0 }}
+//       transition={{ duration: 0.6, ease: "easeOut" }}
+//       whileHover={{ scale: 1.03 }}
+//       viewport={{ once: true }}
+//     >
+//       <div className="overflow-hidden rounded-xl">
+//         <motion.img
+//           src={image}
+//           alt={title}
+//           className="p-4 w-full h-48 object-cover rounded-xl"
+//           whileHover={{ scale: 1.05 }}
+//           transition={{ duration: 0.4 }}
+//         />
+//       </div>
+
+//       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal text-white mt-2">
+//         {title}
+//       </h3>
+
+//       <p className="px-4 text-sm md:text-md leading-tight py-2 text-gray-300">
+//         {main}
+//       </p>
+
+//       <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
+
+//         {/* LIVE BUTTON */}
+//         <motion.a
+//           href={demoLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-[#d4ac0d] border-2 border-white
+//                      shadow-lg transition-all duration-300
+//                      hover:bg-white hover:text-[#d4ac0d] 
+//                      hover:scale-105 hover:shadow-yellow-500/50"
+//           whileTap={{ scale: 0.95 }}
+//         >
+//           Live
+//         </motion.a>
+
+//         {/* SOURCE CODE BUTTON */}
+//         <motion.a
+//           href={sourceLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-[#d4ac0d] border-2 border-white
+//                      shadow-lg transition-all duration-300
+//                      hover:bg-white hover:text-[#d4ac0d] 
+//                      hover:scale-105 hover:shadow-yellow-500/50"
+//           whileTap={{ scale: 0.95 }}
+//         >
+//           Source Code
+//         </motion.a>
+
+//       </div>
+//     </motion.div>
+//   );
+// };
+
+// export default ProjectCard;
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
 import { motion } from "framer-motion";
 
 const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
   return (
     <motion.div
-      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#0c0e19] shadow-xl rounded-2xl cursor-pointer animate-glow"
+      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#2f3640] shadow-xl rounded-2xl cursor-pointer animate-glow"
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       whileInView={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -462,7 +547,7 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
           Live
         </motion.a>
 
-        {/* SOURCE CODE BUTTON */}
+        {/* SOURCE BUTTON */}
         <motion.a
           href={sourceLink}
           target="_blank"
@@ -485,3 +570,4 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
 };
 
 export default ProjectCard;
+
