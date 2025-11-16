@@ -46,8 +46,8 @@
 
 
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
-//import avatarImg from "../../assets/myphoto2.jpeg";
+//import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/myphoto.jpeg";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -94,7 +94,7 @@ const Home = () => {
   <img
     src={avatarImg}
     alt="Ankita Paul"
-    className="block mx-auto w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full object-cover animate-float"
+    className="block mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl animate-float rounded-full object-cover"
   />
 </div>
 
