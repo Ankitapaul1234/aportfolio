@@ -207,7 +207,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-[#2f3640] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white md:flex overflow-hidden items-center md:justify-center bg-[#2f3640] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
     >
       <div>
         {/* MAIN TITLE */}
@@ -215,24 +215,27 @@ const About = () => {
           About Me
         </h2>
 
-        <div className="md:flex flex-wrap flex-col md:flex-row items-center gap-10 mt-5">
+        <div className="flex flex-col md:flex-row gap-10 mt-8 items-start">
           
           {/* LEFT IMAGE */}
-          <img className="md:h-90" src={AboutImg} alt="About img" />
+          <div className="flex justify-center">
+            <img className="md:h-[320px] h-[250px]" src={AboutImg} alt="About img" />
+          </div>
 
-          {/* RIGHT CONTENT WITH a SINGLE COLUMN LINE */}
-          <div className="relative pl-8">
-            {/* COLUMN LINE */}
+          {/* RIGHT TEXT SECTION */}
+          <div className="relative pl-8 w-full md:w-[60%]">
+
+            {/* SINGLE VERTICAL LINE */}
             <div className="absolute left-0 top-0 w-1 h-full bg-[#f1c40f]/40 rounded-full"></div>
 
-            {/* LIST ITEMS */}
+            {/* TEXT ITEMS */}
             <ul>
               {aboutItems.map((item, index) => (
                 <li key={index} className="py-4">
                   <h1 className="text-xl md:text-2xl font-semibold text-[#f1c40f] transition-all duration-300 hover:scale-[1.03] hover:text-[#f5d76e]">
                     {item.title}
                   </h1>
-                  <p className="text-sm md:text-md text-gray-300 leading-tight">
+                  <p className="text-sm md:text-[16px] text-gray-300 leading-tight">
                     {item.desc}
                   </p>
                 </li>
