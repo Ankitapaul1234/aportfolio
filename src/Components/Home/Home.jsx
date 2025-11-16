@@ -73,11 +73,23 @@ const Home = () => {
         {/* <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-6 font-semibold rounded-3xl bg-[#2a79e6] shadow-lg hover:opacity-90 hover:scale-105 hover:shadow-cyan-400/50 transition-all duration-300 ease-in-out">
   Contact Me
 </button> */}
-<a href="#contact">
+{/* <a href="#contact">
   <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-6 font-semibold rounded-3xl bg-[#2a79e6] shadow-lg hover:opacity-90 hover:scale-105 hover:shadow-cyan-400/50 transition-all duration-300 ease-in-out">
     Contact Me
   </button>
+</a> */}
+
+         <a href="#contact">
+  <button
+    className="mt-5 text-white py-2 px-6 w-40 md:w-48 
+               text-sm md:text-lg font-semibold rounded-3xl 
+               bg-[#f1c40f] border-2 border-white
+               shadow-lg transition-all duration-300 ease-in-out
+               hover:bg-white hover:text-black hover:scale-105 hover:shadow-yellow-400/50">
+    Contact Me
+  </button>
 </a>
+
 
       </div>
 
