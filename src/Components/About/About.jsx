@@ -221,11 +221,7 @@ const About = () => {
 
           {/* LEFT IMAGE */}
           <div className="flex justify-center">
-            <img
-              className="md:h-[320px] h-[260px] transition-all duration-700 hover:scale-105"
-              src={AboutImg}
-              alt="About img"
-            />
+            <img className="md:h-90" src={AboutImg} alt="About img" />
           </div>
 
           {/* RIGHT TEXT SECTION */}
