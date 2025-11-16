@@ -205,10 +205,9 @@ const About = () => {
   ];
 
   return (
-    <div
+          <div
       id="About"
-      className="text-white md:flex overflow-hidden items-center md:justify-center bg-[#2f3640]/60 shadow-xl 
-                 mx-0 md:mx-20 rounded-lg p-12 transition-all duration-700 hover:bg-[#2f3640]/80 hover:shadow-2xl"
+      className="text-white md:flex overflow-hidden items-center md:justify-center bg-[#2f3640] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
     >
       <div className="transition-all duration-700 hover:scale-[1.01]">
 
