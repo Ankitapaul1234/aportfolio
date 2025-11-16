@@ -207,36 +207,47 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white md:flex overflow-hidden items-center md:justify-center bg-[#2f3640] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white md:flex overflow-hidden items-center md:justify-center bg-[#2f3640]/60 shadow-xl 
+                 mx-0 md:mx-20 rounded-lg p-12 transition-all duration-700 hover:bg-[#2f3640]/80 hover:shadow-2xl"
     >
-      <div>
+      <div className="transition-all duration-700 hover:scale-[1.01]">
+
         {/* MAIN TITLE */}
-        <h2 className="text-2xl md:text-4xl font-bold text-[#f1c40f] transition-all duration-300 hover:scale-105 hover:text-[#f5d76e]">
+        <h2 className="text-2xl md:text-4xl font-bold text-[#f1c40f] 
+                       transition-all duration-500 hover:text-[#f7d774] hover:tracking-wide">
           About Me
         </h2>
 
         <div className="flex flex-col md:flex-row gap-10 mt-8 items-start">
-          
+
           {/* LEFT IMAGE */}
           <div className="flex justify-center">
-            {/* <img className="md:h-[320px] h-[250px]" src={AboutImg} alt="About img" /> */}
-                  <img className="md:h-90" src={AboutImg} alt="About img" />
+            <img
+              className="md:h-[320px] h-[260px] transition-all duration-700 hover:scale-105"
+              src={AboutImg}
+              alt="About img"
+            />
           </div>
 
           {/* RIGHT TEXT SECTION */}
           <div className="relative pl-8 w-full md:w-[60%]">
 
-            {/* SINGLE VERTICAL LINE */}
+            {/* SINGLE TRANSPARENT YELLOW VERTICAL LINE */}
             <div className="absolute left-0 top-0 w-1 h-full bg-[#f1c40f]/40 rounded-full"></div>
 
             {/* TEXT ITEMS */}
             <ul>
               {aboutItems.map((item, index) => (
-                <li key={index} className="py-4">
-                  <h1 className="text-xl md:text-2xl font-semibold text-[#f1c40f] transition-all duration-300 hover:scale-[1.03] hover:text-[#f5d76e]">
+                <li key={index} className="py-4 group">
+
+                  {/* TITLE */}
+                  <h1 className="text-xl md:text-2xl font-medium text-[#f1c40f] 
+                                 transition-all duration-300 group-hover:text-[#f7d774] group-hover:tracking-wide">
                     {item.title}
                   </h1>
-                  <p className="text-sm md:text-[16px] text-gray-300 leading-tight">
+
+                  {/* DESCRIPTION */}
+                  <p className="text-sm md:text-[16px] text-gray-300 leading-tight font-light tracking-wide">
                     {item.desc}
                   </p>
                 </li>
