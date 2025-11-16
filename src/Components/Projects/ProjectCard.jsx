@@ -438,18 +438,19 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal text-white mt-2">
         {title}
       </h3>
+
       <p className="px-4 text-sm md:text-md leading-tight py-2 text-gray-300">
         {main}
       </p>
 
       <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
 
-        {/* Live Button */}
+        {/* LIVE BUTTON */}
         <motion.a
           href={demoLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-5 text-white py-2 px-6 w-40 md:w-48
+          className="mt-5 text-white py-1.5 px-6 w-40 md:w-48
                      text-sm md:text-lg font-semibold rounded-3xl
                      bg-[#d4ac0d] border-2 border-white
                      shadow-lg transition-all duration-300 ease-in-out
@@ -459,12 +460,12 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
           Live
         </motion.a>
 
-        {/* Source Code Button */}
+        {/* SOURCE CODE BUTTON */}
         <motion.a
           href={sourceLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-5 text-white py-2 px-6 w-40 md:w-48
+          className="mt-5 text-white py-1.5 px-6 w-40 md:w-48
                      text-sm md:text-lg font-semibold rounded-3xl
                      bg-[#d4ac0d] border-2 border-white
                      shadow-lg transition-all duration-300 ease-in-out
