@@ -90,7 +90,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-[#111827] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-[#1a1a1a] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
     >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">About Me</h2>
