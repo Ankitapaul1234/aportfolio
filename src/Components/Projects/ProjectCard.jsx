@@ -450,11 +450,13 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
           href={demoLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-5 text-white py-1.5 px-6 w-40 md:w-48
-                     text-sm md:text-lg font-semibold rounded-3xl
+          className="md:mt-10 text-white py-2 px-3 
+                     text-sm md:text-lg md:py-2 md:px-4 
+                     font-semibold rounded-3xl 
                      bg-[#d4ac0d] border-2 border-white
-                     shadow-lg transition-all duration-300 ease-in-out
-                     hover:bg-white hover:text-[#d4ac0d] hover:scale-105 hover:shadow-yellow-500/50"
+                     shadow-lg transition-all duration-300
+                     hover:bg-white hover:text-[#d4ac0d] 
+                     hover:scale-105 hover:shadow-yellow-500/50"
           whileTap={{ scale: 0.95 }}
         >
           Live
@@ -465,11 +467,13 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
           href={sourceLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-5 text-white py-1.5 px-6 w-40 md:w-48
-                     text-sm md:text-lg font-semibold rounded-3xl
+          className="md:mt-10 text-white py-2 px-3 
+                     text-sm md:text-lg md:py-2 md:px-4 
+                     font-semibold rounded-3xl 
                      bg-[#d4ac0d] border-2 border-white
-                     shadow-lg transition-all duration-300 ease-in-out
-                     hover:bg-white hover:text-[#d4ac0d] hover:scale-105 hover:shadow-yellow-500/50"
+                     shadow-lg transition-all duration-300
+                     hover:bg-white hover:text-[#d4ac0d] 
+                     hover:scale-105 hover:shadow-yellow-500/50"
           whileTap={{ scale: 0.95 }}
         >
           Source Code
@@ -481,4 +485,3 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
 };
 
 export default ProjectCard;
-
