@@ -41,25 +41,30 @@ const Contact = () => {
             name="user_name"
             placeholder="Your Name"
             required
-            className="p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            className="p-3 rounded-md bg-gray-800 text-white border border-[#d4ac0d] focus:outline-none focus:ring-2 focus:ring-cyan-500"
           />
           <input
             type="email"
             name="user_email"
             placeholder="Your Email"
             required
-            className="p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            className="p-3 rounded-md bg-gray-800 text-white border border-[#d4ac0d] focus:outline-none focus:ring-2 focus:ring-cyan-500"
           />
           <textarea
             name="message"
             rows="5"
             placeholder="Your Message"
             required
-            className="p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            className="p-3 rounded-md bg-gray-800 text-white border border-[#d4ac0d] focus:outline-none focus:ring-2 focus:ring-cyan-500"
           ></textarea>
           <button
             type="submit"
-            className="bg-cyan-600 hover:bg-cyan-700 text-white py-2 rounded-md transition duration-300"
+            {/* className="bg-cyan-600 hover:bg-cyan-700 text-white py-2 rounded-md transition duration-300" */}
+          className="mt-5 text-white py-2 px-6 w-40 md:w-48
+                text-sm md:text-lg font-semibold rounded-3xl
+                bg-[#d4ac0d] border-2 border-white
+                shadow-lg transition-all duration-300 ease-in-out
+                hover:bg-white hover:text-[#d4ac0d] hover:scale-105 hover:shadow-yellow-500/50"
           >
             Send Message
           </button>
