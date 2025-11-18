@@ -60,7 +60,7 @@ const Home = () => {
    
 
       <div className="md:w-2/4 md:pt-10">
-       <p className="text-[#d4ac0d] font-light text-xl tracking-wide"
+       <p className="text-cyan-400 font-light text-xl tracking-wide"
    style={{ fontFamily: "Inter, sans-serif" }}>
   -- Hello World
 </p>
@@ -98,17 +98,31 @@ const Home = () => {
   </button>
 </a> */}
 
-<a href="#contact">
+// <a href="#contact">
+//   <button
+//     className="mt-5 text-white py-2 px-6 w-40 md:w-48
+//                text-sm md:text-lg font-semibold rounded-3xl
+//                bg-[#d4ac0d] border-2 border-white
+//                shadow-lg transition-all duration-300 ease-in-out
+//                hover:bg-white hover:text-[#d4ac0d] hover:scale-105 hover:shadow-yellow-500/50"
+//   >
+//     Contact Me
+//   </button>
+// </a>
+
+         <a href="#contact">
   <button
     className="mt-5 text-white py-2 px-6 w-40 md:w-48
                text-sm md:text-lg font-semibold rounded-3xl
-               bg-[#d4ac0d] border-2 border-white
+               bg-cyan-300 border-2 border-white
                shadow-lg transition-all duration-300 ease-in-out
-               hover:bg-white hover:text-[#d4ac0d] hover:scale-105 hover:shadow-yellow-500/50"
+               hover:bg-white hover:text-cyan-500 hover:scale-105 
+               hover:shadow-cyan-300/50"
   >
     Contact Me
   </button>
 </a>
+
 
 
 
