@@ -60,7 +60,7 @@ const Home = () => {
    
 
       <div className="md:w-2/4 md:pt-10">
-       <p className="text-cyan-400 font-light text-xl tracking-wide"
+       <p className="text-[#d4ac0d] font-light text-xl tracking-wide"
    style={{ fontFamily: "Inter, sans-serif" }}>
   -- Hello World
 </p>
