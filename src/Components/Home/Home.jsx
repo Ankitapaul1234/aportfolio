@@ -98,7 +98,7 @@ const Home = () => {
   </button>
 </a> */}
 
-{/* <a href="#contact">
+ <a href="#contact">
    <button
      className="mt-5 text-white py-2 px-6 w-40 md:w-48
                 text-sm md:text-lg font-semibold rounded-3xl
@@ -108,20 +108,9 @@ const Home = () => {
    >
      Contact Me
          </button>
- </a> */}
+ </a> 
 
-<a href="#contact">
-  <button
-    className="mt-5 text-white py-2 px-6 w-40 md:w-48
-               text-sm md:text-lg font-semibold rounded-3xl
-               bg-cyan-300 border-2 border-white
-               shadow-lg transition-all duration-300 ease-in-out
-               hover:bg-white hover:text-cyan-500 hover:scale-105 
-               hover:shadow-cyan-300/50"
-  >
-    Contact Me
-  </button>
-</a>
+
 
 
 
