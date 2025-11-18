@@ -607,7 +607,7 @@ const About = () => {
           </div> */}
 
                 <div className="flex justify-center">
-             <img className="md:h-150 md:w-85 rounded-xl shadow-lg object-cover" src={AboutImg} alt="About img" />
+             <img className="md:h-150 md:w-80 rounded-xl shadow-lg object-cover" src={AboutImg} alt="About img" />
           </div>
 
           {/* RIGHT TEXT */}
