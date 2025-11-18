@@ -534,27 +534,26 @@ const About = () => {
   const aboutItems = [
     {
       title: "Final-Year B.Tech Student",
-      desc: "Currently pursuing a Bachelor of Technology in Information Technology, with a focus on combining core engineering fundamentals with real-world applications in software development and artificial intelligence.",
+      desc: "Currently pursuing a Bachelor of Technology in Information Technology, with a strong foundation in software engineering and modern development practices.",
     },
     {
       title: "Frontend & Backend Developer",
-      desc: "Passionate about building responsive, user-centric web apps using modern frameworks like React, Node.js, and Express.js with MongoDB/MySQL.",
+      desc: "I build clean, responsive, and user-friendly web applications using React, Node.js, Express, MongoDB, and MySQL.",
     },
     {
       title: "Machine Learning Enthusiast",
-      desc: "Enthusiastically exploring and implementing ML models using Python, TensorFlow, and scikit-learn to create intelligent, data-driven applications.",
+      desc: "Actively exploring and implementing machine learning models using Python, TensorFlow, and scikit-learn for real-world problem solving.",
     },
     {
       title: "Problem Solver & Innovator",
-      desc: "Dedicated to solving real-world challenges through technology by blending software engineering skills with AI innovation.",
+      desc: "I enjoy combining software engineering with artificial intelligence to create meaningful solutions to real-world challenges.",
     },
     {
       title: "Constant Learner",
-      desc: "Continuously expanding knowledge at the intersection of web development and machine learning to stay ahead in the evolving tech landscape.",
+      desc: "Always improving my skills at the intersection of web development and machine learning to stay ahead in a fast-evolving tech world.",
     },
   ];
 
-  // SCROLL ANIMATION SETUP
   const aboutRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -562,9 +561,7 @@ const About = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-          }
+          if (entry.isIntersecting) setIsVisible(true);
         });
       },
       { threshold: 0.3 }
@@ -582,45 +579,57 @@ const About = () => {
       id="About"
       ref={aboutRef}
       className={`text-white md:flex overflow-hidden items-center md:justify-center
-                  bg-[#2f3640] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12
+                  bg-[#1a1d21] shadow-2xl mx-0 md:mx-20 bg-opacity-40 rounded-2xl p-10 md:p-14
+                  backdrop-blur-lg border border-white/5
                   transition-all duration-[900ms] ease-out
-                  ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"}`}
+                  ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
     >
       <div className="transition-all duration-700 hover:scale-[1.01]">
 
         {/* MAIN TITLE */}
-        <h2 className="text-2xl md:text-4xl font-bold text-cyan-600 
+        <h2 className="text-3xl md:text-4xl font-bold text-cyan-300 
+                       drop-shadow-[0_0_8px_rgba(103,232,249,0.5)]
                        transition-all duration-500 hover:text-cyan-400 hover:tracking-wide">
           ABOUT ME
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-10 mt-8 items-start">
+        <div className="flex flex-col md:flex-row gap-10 mt-10 items-start">
 
-          {/* LEFT IMAGE */}
+          {/* IMAGE */}
           <div className="flex justify-center">
-            <img className="md:h-150 md:w-85 rounded-xl shadow-lg object-cover" src={AboutImg} alt="About img" />
+            <img
+              className="h-60 w-56 md:h-[22rem] md:w-[18rem] rounded-xl 
+                         shadow-xl object-cover border border-cyan-300/20
+                         hover:shadow-cyan-300/40 transition-all duration-500"
+              src={AboutImg}
+              alt="About"
+            />
           </div>
 
-          {/* RIGHT TEXT SECTION */}
+          {/* RIGHT TEXT */}
           <div className="relative pl-8 w-full md:w-[60%]">
 
-            {/* SINGLE TRANSPARENT CYAN VERTICAL LINE */}
-            <div className="absolute left-0 top-0 w-1 h-full bg-cyan-600/40 rounded-full"></div>
+            {/* VERTICAL CYAN LINE */}
+            <div className="absolute left-0 top-0 w-1 h-full bg-cyan-300/40 rounded-full
+                            shadow-[0_0_10px_rgba(103,232,249,0.5)]"></div>
 
             <ul>
               {aboutItems.map((item, index) => (
-                <li key={index} className="py-4 group">
-
-                  {/* SLIM TITLE */}
+                <li
+                  key={index}
+                  className="py-4 group transition-all duration-300"
+                >
+                  {/* TITLE */}
                   <h1
-                    className="text-xl md:text-2xl font-light tracking-wide text-cyan-600
-                               transition-all duration-300 group-hover:text-cyan-400 group-hover:tracking-wider"
+                    className="text-lg md:text-2xl font-light tracking-wide text-cyan-300
+                               transition-all duration-300 group-hover:text-cyan-400 
+                               group-hover:tracking-wider drop-shadow-[0_0_6px_rgba(103,232,249,0.4)]"
                   >
                     {item.title}
                   </h1>
 
                   {/* DESCRIPTION */}
-                  <p className="text-sm md:text-[16px] text-gray-300 leading-tight font-light tracking-wide">
+                  <p className="text-sm md:text-[16px] text-gray-300 leading-relaxed font-light">
                     {item.desc}
                   </p>
                 </li>
