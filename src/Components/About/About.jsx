@@ -596,7 +596,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-10 mt-10 items-start">
 
           {/* IMAGE */}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <img
               className="h-60 w-56 md:h-[22rem] md:w-[18rem] rounded-xl 
                          shadow-xl object-cover border border-cyan-300/20
@@ -604,6 +604,10 @@ const About = () => {
               src={AboutImg}
               alt="About"
             />
+          </div> */}
+
+                <div className="flex justify-center">
+             <img className="md:h-150 md:w-85 rounded-xl shadow-lg object-cover" src={AboutImg} alt="About img" />
           </div>
 
           {/* RIGHT TEXT */}
