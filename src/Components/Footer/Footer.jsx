@@ -56,7 +56,7 @@ const Footer = () => {
   return (
     <div
       id="Footer"
-      className="flex flex-col md:flex-row justify-around bg-[#d4ac0d] text-white p-10 md:p-12 items-center gap-8"
+      className="flex flex-col md:flex-row justify-around bg-[#465697] text-white p-10 md:p-12 items-center gap-8"
     >
       <div className="text-center md:text-left">
         <h1 className="text-2xl md:text-5xl font-bold">Contact</h1>
