@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -19,4 +19,61 @@
 
 .animate-slideRight {
   animation: slideRight 0.8s ease-out forwards;
+} */
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Slide from Right Animation */
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slideRight {
+  animation: slideRight 0.8s ease-out forwards;
+}
+
+/* ---------------------- */
+/*   CUSTOM YELLOW CURSOR */
+/* ---------------------- */
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.cursor-outline {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #d4ac0d; /* dark yellow */
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, transform 0.15s ease-out;
+  z-index: 9998;
 }
