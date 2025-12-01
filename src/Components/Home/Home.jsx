@@ -78,7 +78,27 @@ const Home = () => {
   </svg>
 </div>
 
+{/* Zig-zag 2 */}
+<svg
+  className="absolute bottom-28 left-24 w-36 h-36 opacity-50 rotate-12"
+  viewBox="0 0 100 100"
+  fill="none"
+  stroke="#c9c9c9"
+  strokeWidth="5"
+>
+  <path d="M10 50 L30 70 L50 50 L70 70 L90 50" />
+</svg>
 
+{/* Zig-zag 3 */}
+<svg
+  className="absolute top-1/2 left-1/4 w-28 h-28 opacity-55"
+  viewBox="0 0 100 100"
+  fill="none"
+  stroke="#d3d3d3"
+  strokeWidth="5"
+>
+  <path d="M10 30 L30 50 L50 30 L70 50 L90 30" />
+</svg>
 
 
 
