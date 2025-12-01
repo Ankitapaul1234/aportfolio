@@ -53,7 +53,38 @@ import TextChange from "../TextChange";
 const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
-    
+
+     {/* Grey zig-zag patterns */}
+<svg
+  className="absolute top-20 right-1/3 w-32 h-32 opacity-20"
+  viewBox="0 0 100 100"
+  fill="none"
+  stroke="#6c6c6c"
+  strokeWidth="4"
+>
+  <path d="M10 10 L30 30 L50 10 L70 30 L90 10" />
+</svg>
+
+<svg
+  className="absolute bottom-32 left-20 w-24 h-24 opacity-15 rotate-45"
+  viewBox="0 0 100 100"
+  fill="none"
+  stroke="#7a7a7a"
+  strokeWidth="3"
+>
+  <path d="M10 50 L30 70 L50 50 L70 70 L90 50" />
+</svg>
+
+<svg
+  className="absolute top-1/2 left-1/4 w-20 h-20 opacity-10"
+  viewBox="0 0 100 100"
+  fill="none"
+  stroke="#8a8a8a"
+  strokeWidth="3"
+>
+  <path d="M10 30 L30 50 L50 30 L70 50 L90 30" />
+</svg>
+
 {/* 
 <div className="absolute top-10 left-10 w-56 h-56 bg-yellow-400 opacity-30 blur-2xl rounded-full mix-blend-screen"></div>
 
