@@ -37,10 +37,62 @@
 
 
 
+// import React, { useState, useEffect } from "react";
+
+// const TextChange = () => {
+//   const texts = ["Hello, I'm Ankita Paul", "Hello, I'm Web Developer", "Hello, I'm ml enthusiast"];
+//   const [currentText, setCurrentText] = useState("");
+//   const [charIndex, setCharIndex] = useState(0);
+//   const [isForward, setIsForward] = useState(true);
+//   const [textIndex, setTextIndex] = useState(0);
+
+//   useEffect(() => {
+//     const intervalId = setInterval(() => {
+//       const fullText = texts[textIndex];
+
+//       if (isForward) {
+//         if (charIndex < fullText.length) {
+//           setCharIndex((prev) => prev + 1);
+//           setCurrentText(fullText.substring(0, charIndex + 1));
+//         } else {
+//           setTimeout(() => setIsForward(false), 1000);
+//         }
+//       } else {
+//         if (charIndex > 0) {
+//           setCharIndex((prev) => prev - 1);
+//           setCurrentText(fullText.substring(0, charIndex - 1));
+//         } else {
+//           setIsForward(true);
+//           setTextIndex((prev) => (prev + 1) % texts.length);
+//         }
+//       }
+//     }, 100);
+
+//     return () => clearInterval(intervalId);
+//   }, [charIndex, isForward, textIndex, texts]);
+
+//   return (
+//     <div className="transition ease duration-300 text-white text-center mt-6 px-4">
+//       <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+//         {currentText}
+//         <span className="animate-pulse">|</span>
+//       </h1>
+//     </div>
+//   );
+// };
+
+// export default TextChange;
+
+
+
+
+
 import React, { useState, useEffect } from "react";
 
 const TextChange = () => {
-  const texts = ["Hello, I'm Ankita Paul", "Hello, I'm Web Developer", "Hello, I'm ml enthusiast"];
+  const texts = ["Ankita Paul", "Web Developer", "ML Enthusiast"]; // Only the dynamic part
+  const staticPrefix = "Hello, I'm "; // Static white text
+
   const [currentText, setCurrentText] = useState("");
   const [charIndex, setCharIndex] = useState(0);
   const [isForward, setIsForward] = useState(true);
@@ -72,13 +124,15 @@ const TextChange = () => {
   }, [charIndex, isForward, textIndex, texts]);
 
   return (
-    <div className="transition ease duration-300 text-white text-center mt-6 px-4">
-      <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-        {currentText}
-        <span className="animate-pulse">|</span>
+    <div className="transition ease duration-300 text-center mt-6 px-4">
+      <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
+        {staticPrefix}
+        <span className="text-yellow-400">{currentText}</span>
+        <span className="animate-pulse text-white">|</span>
       </h1>
     </div>
   );
 };
 
 export default TextChange;
+
