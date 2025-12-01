@@ -54,10 +54,14 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
     
-
+{/* 
 <div className="absolute top-10 left-10 w-56 h-56 bg-yellow-400 opacity-30 blur-2xl rounded-full mix-blend-screen"></div>
 
-<div className="absolute bottom-20 right-10 w-80 h-80 bg-yellow-500 opacity-40 blur-3xl rounded-full mix-blend-screen"></div>
+<div className="absolute bottom-20 right-10 w-80 h-80 bg-yellow-500 opacity-40 blur-3xl rounded-full mix-blend-screen"></div> */}
+     <div className="absolute top-10 left-10 w-72 h-72 bg-yellow-400 opacity-70 blur-xl rounded-full mix-blend-screen"></div>
+
+<div className="absolute bottom-10 right-10 w-[28rem] h-[28rem] bg-yellow-500 opacity-80 blur-2xl rounded-full mix-blend-screen"></div>
+
 
       {/* Left content */}
    
