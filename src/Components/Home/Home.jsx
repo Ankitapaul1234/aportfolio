@@ -184,6 +184,17 @@ const Home = () => {
 
 
 
+{/* Small 3D boxes under the profile image */}
+<div className="flex justify-center md:justify-start gap-4 mt-8">
+  {/* Box 1 - Grey */}
+  <div className="w-14 h-14 bg-gray-700 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-400 transition-all duration-300"></div>
+
+  {/* Box 2 - Grey */}
+  <div className="w-14 h-14 bg-gray-700 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-400 transition-all duration-300"></div>
+
+  {/* Box 3 - Light Yellow */}
+  <div className="w-14 h-14 bg-yellow-400 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-500 transition-all duration-300 hidden md:block"></div>
+</div>
 
 
 
