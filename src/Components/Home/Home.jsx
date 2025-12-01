@@ -55,14 +55,29 @@ const Home = () => {
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
 {/* Half-circle arc stack on left */}
-<div className="absolute left-10 top-1/2 -translate-y-1/2 pointer-events-none opacity-40 z-0">
+{/* <div className="absolute left-10 top-1/2 -translate-y-1/2 pointer-events-none opacity-40 z-0">
   <svg width="300" height="300" viewBox="0 0 300 300">
     <path d="M150 20 A130 130 0 0 1 150 280" stroke="#9CA3AF" strokeWidth="6" fill="none" />
     <path d="M150 40 A110 110 0 0 1 150 260" stroke="#B0B6BD" strokeWidth="5" fill="none" />
     <path d="M150 60 A90 90 0 0 1 150 240" stroke="#C5C9CE" strokeWidth="4" fill="none" />
     <path d="M150 80 A70 70 0 0 1 150 220" stroke="#D1D5DB" strokeWidth="4" fill="none" />
   </svg>
+</div> */}
+
+ {/* Half-circle arc stack on the left, responsive */}
+<div className="absolute top-1/2 -translate-y-1/2 left-0 pointer-events-none opacity-40 z-0">
+  <svg
+    className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96"
+    viewBox="0 0 300 300"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M150 20 A130 130 0 0 1 150 280" stroke="#9CA3AF" strokeWidth="6" fill="none" />
+    <path d="M150 40 A110 110 0 0 1 150 260" stroke="#B0B6BD" strokeWidth="5" fill="none" />
+    <path d="M150 60 A90 90 0 0 1 150 240" stroke="#C5C9CE" strokeWidth="4" fill="none" />
+    <path d="M150 80 A70 70 0 0 1 150 220" stroke="#D1D5DB" strokeWidth="4" fill="none" />
+  </svg>
 </div>
+
 
 
 
