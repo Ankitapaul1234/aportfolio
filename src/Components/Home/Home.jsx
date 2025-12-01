@@ -55,11 +55,14 @@ const Home = () => {
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
 <div className="absolute right-10 top-1/2 -translate-y-1/2 pointer-events-none">
-  <div className="w-64 h-64 border-r-4 border-gray-500 rounded-full absolute"></div>
-  <div className="w-56 h-56 border-r-4 border-gray-400 rounded-full absolute top-4 left-4"></div>
-  <div className="w-48 h-48 border-r-4 border-gray-300 rounded-full absolute top-8 left-8"></div>
-  <div className="w-40 h-40 border-r-4 border-gray-300 rounded-full absolute top-12 left-12"></div>
+  <svg width="300" height="300" viewBox="0 0 300 300">
+    <path d="M150 20 A130 130 0 0 1 150 280" stroke="#9CA3AF" strokeWidth="6" fill="none" />
+    <path d="M150 40 A110 110 0 0 1 150 260" stroke="#B0B6BD" strokeWidth="5" fill="none" />
+    <path d="M150 60 A90 90 0 0 1 150 240" stroke="#C5C9CE" strokeWidth="4" fill="none" />
+    <path d="M150 80 A70 70 0 0 1 150 220" stroke="#D1D5DB" strokeWidth="4" fill="none" />
+  </svg>
 </div>
+
 
 
 
