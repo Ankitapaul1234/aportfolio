@@ -54,13 +54,13 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-{/* Half-circle arc stack */}
 <div className="absolute right-10 top-1/2 -translate-y-1/2 pointer-events-none">
-  <div className="w-64 h-64 border-r-4 border-gray-400 rounded-full absolute"></div>
-  <div className="w-52 h-52 border-r-4 border-gray-300 rounded-full absolute top-6 left-6"></div>
+  <div className="w-64 h-64 border-r-4 border-gray-500 rounded-full absolute"></div>
+  <div className="w-56 h-56 border-r-4 border-gray-400 rounded-full absolute top-4 left-4"></div>
+  <div className="w-48 h-48 border-r-4 border-gray-300 rounded-full absolute top-8 left-8"></div>
   <div className="w-40 h-40 border-r-4 border-gray-300 rounded-full absolute top-12 left-12"></div>
-  <div className="w-28 h-28 border-r-4 border-gray-200 rounded-full absolute top-18 left-18"></div>
 </div>
+
 
 
 
