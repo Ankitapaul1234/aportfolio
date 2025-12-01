@@ -185,18 +185,7 @@ const Home = () => {
  
 </div>
 
-  {/* Scattered 3D boxes */}
-  <div className="absolute w-full h-full pointer-events-none">
-    {/* Grey Boxes */}
-    <div className="absolute top-24 left-10 w-8 h-8 bg-gray-700 rounded-lg shadow-lg transform rotate-12"></div>
-    <div className="absolute top-32 left-20 w-6 h-6 bg-gray-700 rounded-lg shadow-lg transform -rotate-6"></div>
-    <div className="absolute top-40 left-5 w-10 h-10 bg-gray-700 rounded-lg shadow-lg transform rotate-3"></div>
-
-    {/* Yellow Boxes */}
-    <div className="absolute top-28 left-28 w-8 h-8 bg-yellow-400 rounded-lg shadow-lg transform rotate-6"></div>
-    <div className="absolute top-36 left-16 w-6 h-6 bg-yellow-400 rounded-lg shadow-lg transform -rotate-12"></div>
-    <div className="absolute top-44 left-24 w-8 h-8 bg-yellow-300 rounded-lg shadow-lg transform rotate-9"></div>
-  </div>
+ 
 
 
 
