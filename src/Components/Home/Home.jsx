@@ -180,21 +180,25 @@ const Home = () => {
     alt="Ankita Paul"
     className="block mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl animate-float rounded-full object-cover"
   />
+
+
+   {/* Scattered 3D boxes */}
+  <div className="absolute w-full h-full pointer-events-none">
+    {/* Grey Boxes */}
+    <div className="absolute top-24 left-10 w-8 h-8 bg-gray-700 rounded-lg shadow-lg transform rotate-12"></div>
+    <div className="absolute top-32 left-20 w-6 h-6 bg-gray-700 rounded-lg shadow-lg transform -rotate-6"></div>
+    <div className="absolute top-40 left-5 w-10 h-10 bg-gray-700 rounded-lg shadow-lg transform rotate-3"></div>
+
+    {/* Yellow Boxes */}
+    <div className="absolute top-28 left-28 w-8 h-8 bg-yellow-400 rounded-lg shadow-lg transform rotate-6"></div>
+    <div className="absolute top-36 left-16 w-6 h-6 bg-yellow-400 rounded-lg shadow-lg transform -rotate-12"></div>
+    <div className="absolute top-44 left-24 w-8 h-8 bg-yellow-300 rounded-lg shadow-lg transform rotate-9"></div>
+  </div>
 </div>
 
 
 
-{/* Small 3D boxes under the profile image */}
-<div className="flex justify-center md:justify-start gap-4 mt-8">
-  {/* Box 1 - Grey */}
-  <div className="w-14 h-14 bg-gray-700 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-400 transition-all duration-300"></div>
 
-  {/* Box 2 - Grey */}
-  <div className="w-14 h-14 bg-gray-700 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-400 transition-all duration-300"></div>
-
-  {/* Box 3 - Light Yellow */}
-  <div className="w-14 h-14 bg-yellow-400 rounded-lg shadow-lg transform hover:-translate-y-1 hover:shadow-yellow-500 transition-all duration-300 hidden md:block"></div>
-</div>
 
 
 
