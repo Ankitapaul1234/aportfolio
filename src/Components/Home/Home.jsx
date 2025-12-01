@@ -58,9 +58,10 @@ const Home = () => {
 <div className="absolute top-10 left-10 w-56 h-56 bg-yellow-400 opacity-30 blur-2xl rounded-full mix-blend-screen"></div>
 
 <div className="absolute bottom-20 right-10 w-80 h-80 bg-yellow-500 opacity-40 blur-3xl rounded-full mix-blend-screen"></div> */}
-     <div className="absolute top-10 left-10 w-72 h-72 bg-yellow-400 opacity-70 blur-xl rounded-full mix-blend-screen"></div>
+<div className="absolute top-10 left-10 w-64 h-64 bg-yellow-400 opacity-45 blur-2xl rounded-full mix-blend-screen"></div>
 
-<div className="absolute bottom-10 right-10 w-[28rem] h-[28rem] bg-yellow-500 opacity-80 blur-2xl rounded-full mix-blend-screen"></div>
+<div className="absolute bottom-16 right-10 w-96 h-96 bg-yellow-500 opacity-50 blur-3xl rounded-full mix-blend-screen"></div>
+
 
 
       {/* Left content */}
