@@ -54,8 +54,26 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-{/* diagonal lines */}
-<div className="absolute inset-0 pointer-events-none opacity-10 bg-[linear-gradient(135deg,_rgba(255,255,255,0.12)_1px,_transparent_1px)] bg-[size:40px_40px]"></div>
+{/* wavy background lines */}
+<svg
+  className="absolute inset-0 opacity-35"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 320"
+>
+  <path
+    fill="none"
+    stroke="#bfbfbf"
+    strokeWidth="3"
+    d="M0,64 C360,120 720,10 1440,80"
+  />
+  <path
+    fill="none"
+    stroke="#d1d1d1"
+    strokeWidth="2"
+    d="M0,200 C360,260 720,180 1440,240"
+  />
+</svg>
+
 
 
 
