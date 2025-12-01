@@ -54,25 +54,17 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-{/* wavy background lines */}
+{/* visible abstract background lines */}
 <svg
-  className="absolute inset-0 opacity-35"
+  className="absolute inset-0 w-full h-full opacity-40"
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1440 320"
 >
-  <path
-    fill="none"
-    stroke="#bfbfbf"
-    strokeWidth="3"
-    d="M0,64 C360,120 720,10 1440,80"
-  />
-  <path
-    fill="none"
-    stroke="#d1d1d1"
-    strokeWidth="2"
-    d="M0,200 C360,260 720,180 1440,240"
-  />
+  <line x1="0" y1="50" x2="100%" y2="0" stroke="#bfbfbf" strokeWidth="2" />
+  <line x1="0" y1="150" x2="100%" y2="100" stroke="#cfcfcf" strokeWidth="2" />
+  <line x1="0" y1="250" x2="100%" y2="200" stroke="#d8d8d8" strokeWidth="2" />
+  <line x1="0" y1="350" x2="100%" y2="300" stroke="#bfbfbf" strokeWidth="2" />
 </svg>
+
 
 
 
