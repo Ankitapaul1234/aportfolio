@@ -54,8 +54,9 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-   {/* Soft dotted grid pattern */}
-<div className="absolute inset-0 opacity-[0.12] pointer-events-none bg-[radial-gradient(circle,_#c9c9c9_1px,_transparent_1px)] bg-[size:24px_24px]"></div>
+{/* diagonal lines */}
+<div className="absolute inset-0 pointer-events-none opacity-10 bg-[linear-gradient(135deg,_rgba(255,255,255,0.12)_1px,_transparent_1px)] bg-[size:40px_40px]"></div>
+
 
 
 
