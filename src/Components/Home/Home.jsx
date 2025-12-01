@@ -54,36 +54,39 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-     {/* Grey zig-zag patterns */}
+    {/* Zig-zag 1 */}
 <svg
-  className="absolute top-20 right-1/3 w-32 h-32 opacity-20"
+  className="absolute top-24 right-1/3 w-40 h-40 opacity-60"
   viewBox="0 0 100 100"
   fill="none"
-  stroke="#6c6c6c"
-  strokeWidth="4"
+  stroke="#bfbfbf"    /* lighter grey */
+  strokeWidth="6"
 >
-  <path d="M10 10 L30 30 L50 10 L70 30 L90 10" />
+  <path d="M10 20 L30 40 L50 20 L70 40 L90 20" />
 </svg>
 
+{/* Zig-zag 2 */}
 <svg
-  className="absolute bottom-32 left-20 w-24 h-24 opacity-15 rotate-45"
+  className="absolute bottom-28 left-24 w-36 h-36 opacity-50 rotate-12"
   viewBox="0 0 100 100"
   fill="none"
-  stroke="#7a7a7a"
-  strokeWidth="3"
+  stroke="#c9c9c9"
+  strokeWidth="5"
 >
   <path d="M10 50 L30 70 L50 50 L70 70 L90 50" />
 </svg>
 
+{/* Zig-zag 3 */}
 <svg
-  className="absolute top-1/2 left-1/4 w-20 h-20 opacity-10"
+  className="absolute top-1/2 left-1/4 w-28 h-28 opacity-55"
   viewBox="0 0 100 100"
   fill="none"
-  stroke="#8a8a8a"
-  strokeWidth="3"
+  stroke="#d3d3d3"
+  strokeWidth="5"
 >
   <path d="M10 30 L30 50 L50 30 L70 50 L90 30" />
 </svg>
+
 
 {/* 
 <div className="absolute top-10 left-10 w-56 h-56 bg-yellow-400 opacity-30 blur-2xl rounded-full mix-blend-screen"></div>
