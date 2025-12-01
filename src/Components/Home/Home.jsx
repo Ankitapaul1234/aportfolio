@@ -54,16 +54,14 @@ const Home = () => {
   return (
     <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
 
-{/* visible abstract background lines */}
-<svg
-  className="absolute inset-0 w-full h-full opacity-40"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <line x1="0" y1="50" x2="100%" y2="0" stroke="#bfbfbf" strokeWidth="2" />
-  <line x1="0" y1="150" x2="100%" y2="100" stroke="#cfcfcf" strokeWidth="2" />
-  <line x1="0" y1="250" x2="100%" y2="200" stroke="#d8d8d8" strokeWidth="2" />
-  <line x1="0" y1="350" x2="100%" y2="300" stroke="#bfbfbf" strokeWidth="2" />
-</svg>
+{/* Half-circle arc stack */}
+<div className="absolute right-10 top-1/2 -translate-y-1/2 pointer-events-none">
+  <div className="w-64 h-64 border-r-4 border-gray-400 rounded-full absolute"></div>
+  <div className="w-52 h-52 border-r-4 border-gray-300 rounded-full absolute top-6 left-6"></div>
+  <div className="w-40 h-40 border-r-4 border-gray-300 rounded-full absolute top-12 left-12"></div>
+  <div className="w-28 h-28 border-r-4 border-gray-200 rounded-full absolute top-18 left-18"></div>
+</div>
+
 
 
 
