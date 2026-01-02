@@ -88,6 +88,13 @@ const Navbar = () => {
           <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">About</li>
         </a>
         
+        <a href="#education">
+  <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">
+    Education
+  </li>
+</a>
+
+
         <a href="#Experience">
           <li className="py-2 md:py-0 hover:text-[#d4ac0d] transition duration-300">Skills</li>
         </a>

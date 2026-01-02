@@ -490,7 +490,9 @@ const Experience = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        Skills
+        <h2 className="text-center text-4xl font-bold mb-12">
+          <span className="text-yellow-400">My</span> skills
+        </h2> 
       </motion.h1>
 
       <motion.div

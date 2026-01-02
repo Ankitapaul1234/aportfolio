@@ -40,6 +40,7 @@ import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
+import Education from "./Components/Education/Education";
 
 function App() {
 
@@ -71,6 +72,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Education />
       <Experience />
       <Projects />
       <Contact />

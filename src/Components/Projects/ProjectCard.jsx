@@ -497,13 +497,214 @@
 
 
 
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
+//   return (
+//     <motion.div
+//       className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#1e232b] shadow-xl rounded-2xl cursor-pointer animate-glow"
+//       initial={{ opacity: 0, scale: 0.8, y: 50 }}
+//       whileInView={{ opacity: 1, scale: 1, y: 0 }}
+//       transition={{ duration: 0.6, ease: 'easeOut' }}
+//       whileHover={{ scale: 1.03 }}
+//       viewport={{ once: true }}
+//     >
+//       {/* IMAGE */}
+//       <div className="overflow-hidden rounded-xl">
+//         <motion.img
+//           src={image}
+//           alt={title}
+//           className="p-4 w-full h-48 object-cover rounded-xl"
+//           whileHover={{ scale: 1.05 }}
+//           transition={{ duration: 0.4 }}
+//         />
+//       </div>
+
+//       {/* TITLE */}
+//       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal text-white mt-2">
+//         {title}
+//       </h3>
+
+//       {/* DESCRIPTION */}
+//       <p className="px-4 text-sm md:text-md leading-tight py-2 text-gray-300">
+//         {main}
+//       </p>
+
+//       {/* BUTTONS */}
+//       <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
+        
+//         {/* LIVE BUTTON */}
+//         <motion.a
+//           href={demoLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-[#d4ac0d] border-2 border-white
+//                      shadow-lg transition-all duration-300
+//                      hover:bg-white hover:text-[#d4ac0d] 
+//                      hover:scale-105 hover:shadow-yellow-500/50"
+//           whileTap={{ scale: 0.95 }}
+//         >
+//           Live
+//         </motion.a>
+
+//         {/* SOURCE CODE BUTTON */}
+//         <motion.a
+//           href={sourceLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-[#d4ac0d] border-2 border-white
+//                      shadow-lg transition-all duration-300
+//                      hover:bg-white hover:text-[#d4ac0d] 
+//                      hover:scale-105 hover:shadow-yellow-500/50"
+//           whileTap={{ scale: 0.95 }}
+//         >
+//           Source Code
+//         </motion.a>
+
+//       </div>
+//     </motion.div>
+//   );
+// };
+
+// export default ProjectCard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
+//   return (
+//     <motion.div
+//       className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#1e232b] rounded-2xl cursor-pointer"
+//       initial={{ opacity: 0, scale: 0.8, y: 50 }}
+//       whileInView={{ opacity: 1, scale: 1, y: 0 }}
+//       transition={{ duration: 0.6, ease: 'easeOut' }}
+//       whileHover={{ scale: 1.03 }}
+//       viewport={{ once: true }}
+//     >
+//       {/* IMAGE */}
+//       <div className="overflow-hidden rounded-xl">
+//         <motion.img
+//           src={image}
+//           alt={title}
+//           className="p-4 w-full h-48 object-cover rounded-xl"
+//           whileHover={{ scale: 1.05 }}
+//           transition={{ duration: 0.4 }}
+//         />
+//       </div>
+
+//       {/* TITLE */}
+//       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal text-white mt-2">
+//         {title}
+//       </h3>
+
+//       {/* DESCRIPTION */}
+//       <p className="px-4 text-sm md:text-md leading-tight py-2 text-gray-300">
+//         {main}
+//       </p>
+
+//       {/* BUTTONS */}
+//       <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
+        
+//         {/* LIVE BUTTON */}
+//         <motion.a
+//           href={demoLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-gradient-to-r from-yellow-500 to-amber-600 
+//                      border-2 border-yellow-400
+//                      shadow-lg transition-all duration-300
+//                      hover:from-yellow-600 hover:to-amber-700
+//                      hover:scale-105"
+//           whileTap={{ scale: 0.95 }}
+//           whileHover={{ 
+//             boxShadow: "0 0 20px rgba(255, 193, 7, 0.5)"
+//           }}
+//         >
+//           Live
+//         </motion.a>
+
+//         {/* SOURCE CODE BUTTON */}
+//         <motion.a
+//           href={sourceLink}
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="md:mt-10 text-white py-2 px-3 
+//                      text-sm md:text-lg md:py-2 md:px-4 
+//                      font-semibold rounded-3xl 
+//                      bg-gradient-to-r from-yellow-500 to-amber-600 
+//                      border-2 border-yellow-400
+//                      shadow-lg transition-all duration-300
+//                      hover:from-yellow-600 hover:to-amber-700
+//                      hover:scale-105"
+//           whileTap={{ scale: 0.95 }}
+//           whileHover={{ 
+//             boxShadow: "0 0 20px rgba(255, 193, 7, 0.5)"
+//           }}
+//         >
+//           Source Code
+//         </motion.a>
+
+//       </div>
+//     </motion.div>
+//   );
+// };
+
+// export default ProjectCard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
 import { motion } from "framer-motion";
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
   return (
     <motion.div
-      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#1e232b] shadow-xl rounded-2xl cursor-pointer animate-glow"
+      className="p-3 md:p-6 flex flex-col w-[22rem] bg-[#1e232b] rounded-2xl cursor-pointer"
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       whileInView={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -531,42 +732,80 @@ const ProjectCard = ({ title, main, image, demoLink, sourceLink }) => {
         {main}
       </p>
 
-      {/* BUTTONS */}
-      <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
+      {/* BUTTONS - Updated to match your tabs style */}
+       <div className="mt-4 p-2 md:p-4 flex gap-4 justify-center">
         
         {/* LIVE BUTTON */}
-        <motion.a
+         {/* <motion.a
           href={demoLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="md:mt-10 text-white py-2 px-3 
-                     text-sm md:text-lg md:py-2 md:px-4 
-                     font-semibold rounded-3xl 
-                     bg-[#d4ac0d] border-2 border-white
-                     shadow-lg transition-all duration-300
-                     hover:bg-white hover:text-[#d4ac0d] 
-                     hover:scale-105 hover:shadow-yellow-500/50"
+          className="px-6 py-3 rounded-full border-2 border-yellow-400 font-medium 
+                     transition-all duration-300 text-yellow-400 
+                     hover:bg-yellow-400 hover:text-black"
           whileTap={{ scale: 0.95 }}
+          whileHover={{ 
+            scale: 1.05,
+            boxShadow: "0 0 15px rgba(255, 193, 7, 0.4)"
+          }}
         >
-          Live
-        </motion.a>
+          Live Demo
+        </motion.a>  */}
+   
+
+
 
         {/* SOURCE CODE BUTTON */}
-        <motion.a
+         {/* <motion.a
           href={sourceLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="md:mt-10 text-white py-2 px-3 
-                     text-sm md:text-lg md:py-2 md:px-4 
-                     font-semibold rounded-3xl 
-                     bg-[#d4ac0d] border-2 border-white
-                     shadow-lg transition-all duration-300
-                     hover:bg-white hover:text-[#d4ac0d] 
-                     hover:scale-105 hover:shadow-yellow-500/50"
+          className="px-6 py-3 rounded-full border-2 border-yellow-400 font-medium 
+                     transition-all duration-300 text-yellow-400 
+                     hover:bg-yellow-400 hover:text-black"
           whileTap={{ scale: 0.95 }}
+          whileHover={{ 
+            scale: 1.05,
+            boxShadow: "0 0 15px rgba(255, 193, 7, 0.4)"
+          }}
         >
           Source Code
-        </motion.a>
+        </motion.a>  */}
+       
+
+       {/* LIVE DEMO LINK */}
+  <motion.a
+    href={demoLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-yellow-400 font-medium 
+               transition-all duration-300 text-yellow-400 
+               hover:bg-yellow-400 hover:text-black"
+    whileTap={{ scale: 0.95 }}
+    whileHover={{ 
+      scale: 1.05,
+      boxShadow: "0 0 15px rgba(255, 193, 7, 0.4)"
+    }}
+  >
+    <FiExternalLink size={18} /> Live Demo
+  </motion.a> 
+
+  {/* SOURCE CODE LINK */}
+  <motion.a
+    href={sourceLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-yellow-400 font-medium 
+               transition-all duration-300 text-yellow-400 
+               hover:bg-yellow-400 hover:text-black"
+    whileTap={{ scale: 0.95 }}
+    whileHover={{ 
+      scale: 1.05,
+      boxShadow: "0 0 15px rgba(255, 193, 7, 0.4)"
+    }}
+  >
+    <FiGithub size={18} /> Source Code
+  </motion.a>
 
       </div>
     </motion.div>
