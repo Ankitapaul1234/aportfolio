@@ -41,6 +41,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
+// import Hobbies from "./Components/Hobbies/hobbie";
+import Hobbies from "./Components/Hobbies/hobbie";
 
 function App() {
 
@@ -75,6 +77,7 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+       <Hobbies />
       <Contact />
       <Footer />
     </div>

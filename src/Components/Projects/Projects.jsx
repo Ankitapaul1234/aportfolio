@@ -277,6 +277,146 @@
 
 
 
+// import React from "react";
+// import ProjectCard from "./ProjectCard";
+// import predicaImg from "../../assets/predica.png";
+// import tufaiImg from "../../assets/tufai.png";
+// import acclivityImg from "../../assets/bank.png";
+// import trendsyImg from "../../assets/trendsy.png";
+// import stopzyImg from "../../assets/stopzy.png";
+// import calcifyImg from "../../assets/clacify.png";
+
+// const projects = [
+//   {
+//     title: "Predica — Breast Cancer Prediction",
+//     main: "ML-based cancer prediction platform with chatbot, awareness content, and hospital locator.",
+//     image: predicaImg,
+//     demoLink: "https://predica.netlify.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/predica",
+//   },
+//   {
+//     title: "TufAi — AI Career Coach",
+//     main: "AI-driven career guidance with resume builder, cover letter generator, and interview prep.",
+//     image: tufaiImg,
+//     demoLink: "https://tufai.vercel.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/tufai",
+//   },
+//   {
+//     title: "Acclivity — Bank Transfer App",
+//     main: "Secure fund transfer app with Dwolla integration and ID-based transactions.",
+//     image: acclivityImg,
+//     demoLink: "https://acclivity89.vercel.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/acclivity89",
+//   },
+//   {
+//     title: "Trendsy — Clothing Brand UI",
+//     main: "Responsive brand landing page with modern layout and smooth scrolling.",
+//     image: trendsyImg,
+//     demoLink: "https://trendsy.netlify.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/PRODIGY_WD_02.git",
+//   },
+//   {
+//     title: "Stopzy — Stopwatch App",
+//     main: "Minimal stopwatch app with accurate timing controls.",
+//     image: stopzyImg,
+//     demoLink: "https://stopzy.netlify.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/PRODIGY_WD_02.git",
+//   },
+//   {
+//     title: "Calcify — Calculator",
+//     main: "Clean and responsive calculator for basic arithmetic operations.",
+//     image: calcifyImg,
+//     demoLink: "https://clacify.netlify.app/",
+//     sourceLink: "https://github.com/Ankitapaul1234/clacify.git",
+//   },
+// ];
+
+// const Projects = () => {
+//   return (
+//     <section
+//       id="Projects"
+//       className="relative py-20 px-6 md:px-20 bg-gray-900 text-white"
+//     >
+//       <div className="text-center mb-12">
+//         {/* Heading */}
+//         <h2 className="text-center text-4xl font-bold mb-12">
+//           <span className="text-yellow-400">My</span> Projects
+//         </h2>
+//         <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-base md:text-lg">
+//           Selected projects demonstrating problem-solving, clean UI design, and real-world application development.
+//         </p>
+//       </div>
+
+//       {/* Running cards with proper gaps like CSS example */}
+//       <div className="overflow-hidden relative py-5">
+//         <div className="inline-flex animate-marquee hover:animation-paused gap-8"> {/* Added gap-8 here */}
+//           {projects.concat(projects).map((project, idx) => (
+//             <div 
+//               key={idx} 
+//               className="flex-shrink-0" // Removed mr-8 since we're using gap now
+//               style={{ width: "350px" }} // Set fixed width like your CSS example
+//             >
+//               <ProjectCard
+//                 title={project.title}
+//                 main={project.main}
+//                 image={project.image}
+//                 demoLink={project.demoLink}
+//                 sourceLink={project.sourceLink}
+//               />
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+//       <style>
+//         {`
+//           @keyframes marquee {
+//             0% { transform: translateX(0); }
+//             100% { transform: translateX(-50%); }
+//           }
+//           .animate-marquee {
+//             animation: marquee 40s linear infinite;
+//             padding: 20px 0; /* Added padding like your CSS example */
+//           }
+//           .hover\\:animation-paused:hover {
+//             animation-play-state: paused;
+//           }
+//         `}
+//       </style>
+//     </section>
+//   );
+// };
+
+// export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import predicaImg from "../../assets/predica.png";
@@ -335,39 +475,54 @@ const Projects = () => {
   return (
     <section
       id="Projects"
-      className="relative py-20 px-6 md:px-20 bg-gray-900 text-white"
+      className="relative py-20 px-6 md:px-20 text-white"
+      style={{
+        backgroundImage:
+          "url('https://c8.alamy.com/comp/2E1CK1K/banner-with-laptop-and-scattered-office-supply-on-a-black-background-online-business-workspace-distance-work-concept-2E1CK1K.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
     >
-      <div className="text-center mb-12">
-        {/* Heading */}
-        <h2 className="text-center text-4xl font-bold mb-12">
-          <span className="text-yellow-400">My</span> Projects
-        </h2>
-        <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-base md:text-lg">
-          Selected projects demonstrating problem-solving, clean UI design, and real-world application development.
-        </p>
-      </div>
+      {/* Dark + hazy overlay */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
 
-      {/* Running cards with proper gaps like CSS example */}
-      <div className="overflow-hidden relative py-5">
-        <div className="inline-flex animate-marquee hover:animation-paused gap-8"> {/* Added gap-8 here */}
-          {projects.concat(projects).map((project, idx) => (
-            <div 
-              key={idx} 
-              className="flex-shrink-0" // Removed mr-8 since we're using gap now
-              style={{ width: "350px" }} // Set fixed width like your CSS example
-            >
-              <ProjectCard
-                title={project.title}
-                main={project.main}
-                image={project.image}
-                demoLink={project.demoLink}
-                sourceLink={project.sourceLink}
-              />
-            </div>
-          ))}
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Heading */}
+        <div className="text-center mb-12">
+          <h2 className="text-center text-4xl font-bold mb-4">
+            <span className="text-yellow-400">My</span> Projects
+          </h2>
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-base md:text-lg">
+            Selected projects demonstrating problem-solving, clean UI design,
+            and real-world application development.
+          </p>
+        </div>
+
+        {/* Running cards */}
+        <div className="overflow-hidden relative py-5">
+          <div className="inline-flex animate-marquee hover:animation-paused gap-8">
+            {projects.concat(projects).map((project, idx) => (
+              <div
+                key={idx}
+                className="flex-shrink-0"
+                style={{ width: "350px" }}
+              >
+                <ProjectCard
+                  title={project.title}
+                  main={project.main}
+                  image={project.image}
+                  demoLink={project.demoLink}
+                  sourceLink={project.sourceLink}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
+      {/* Animation */}
       <style>
         {`
           @keyframes marquee {
@@ -376,7 +531,7 @@ const Projects = () => {
           }
           .animate-marquee {
             animation: marquee 40s linear infinite;
-            padding: 20px 0; /* Added padding like your CSS example */
+            padding: 20px 0;
           }
           .hover\\:animation-paused:hover {
             animation-play-state: paused;
@@ -388,32 +543,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
